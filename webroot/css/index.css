@@ -183,3 +183,19 @@ small {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap; }
+
+.footer-site {
+  display: flex;
+  justify-content: center; }
+  .footer-site div {
+    width: 261px;
+    border-top: 1px solid #fff; }
+    .footer-site div p {
+      font-family: 'Montserrat';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #A9A9A9; }

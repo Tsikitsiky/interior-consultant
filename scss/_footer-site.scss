@@ -1,0 +1,18 @@
+.footer-site {
+    display: flex;
+    justify-content: center;
+    div {
+        width: 261px;
+        border-top: 1px solid #fff;
+        p {
+            font-family: 'Montserrat';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #A9A9A9;
+        }
+    }
+}
