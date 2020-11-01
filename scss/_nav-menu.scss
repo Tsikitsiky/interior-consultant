@@ -1,5 +1,4 @@
 .header-site__menu {
-    padding: 1rem;
     position: absolute;
     z-index: 3;
     top: 0;
@@ -10,8 +9,9 @@
     
     .close {
         background-image: image('x.svg');
+        background-size: 23px;
         position: absolute;
-        top: 3%;
+        top: 1%;
         left: 60%;
     }
 

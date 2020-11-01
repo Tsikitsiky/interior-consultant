@@ -1,6 +1,8 @@
 body {
   background-color: #181719;
-  color: #fff;
+  color: #fff; }
+
+.site-container {
   position: relative; }
 
 a {
@@ -46,7 +48,6 @@ label {
   display: block; }
 
 .header-site__menu {
-  padding: 1rem;
   position: absolute;
   z-index: 3;
   top: 0;
@@ -56,8 +57,9 @@ label {
   transition: transform 0.3s; }
   .header-site__menu .close {
     background-image: url("../icons/x.svg");
+    background-size: 23px;
     position: absolute;
-    top: 3%;
+    top: 1%;
     left: 60%; }
   .header-site__menu ul {
     width: 100vw;
