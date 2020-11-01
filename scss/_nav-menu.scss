@@ -3,22 +3,23 @@
     z-index: 3;
     top: 0;
     left: 0;
-    bottom: 0;
-    transform: translateX(-100%);
+    transform: translateX(-110%);
     transition: transform 0.3s;
+    width: 100%;
+    height: 100vh;
+    background-color: #181719;
+    text-align: center;
     
     .close {
         background-image: image('x.svg');
         background-size: 23px;
         position: absolute;
-        top: 1%;
-        left: 60%;
+        top: 3%;
+        left: 92%;
     }
 
     ul {
-        width: 100vw;
-        height: 100vh;
-        background-color: #181719;
+        
         padding: 3rem;
         a {
             color: #fff;
@@ -37,7 +38,7 @@
 }
 
 .site-container > [type="checkbox"]:checked ~ header nav {
-    transform: translateX(0%);
+    transform: translateX(0);
     z-index: 2;
     top: 0;
     left: 0;
