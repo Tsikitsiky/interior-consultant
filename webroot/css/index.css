@@ -21,7 +21,8 @@ ul {
 
 .header-site {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
 
 .header-site__heading a {
   color: #fff;
