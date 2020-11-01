@@ -1,0 +1,7 @@
+$black-background: #181719;
+$text-color: #fff;
+
+//for the background image
+@function image($filename) {
+    @return url('../icons/#{$filename}');
+  }

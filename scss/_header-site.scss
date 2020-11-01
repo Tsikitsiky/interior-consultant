@@ -1,0 +1,32 @@
+.header-site {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-site__heading a {
+color: #fff;
+text-transform: uppercase;
+}
+
+.header-site__heading {
+    font-family: 'Crimson Pro', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid #fff;
+    padding: 5px;
+    width: 103px;
+}
+
+.menu-icon {
+    background-image: image('menu.svg');
+}
+
+label {
+    width: 28.5px;
+    height: 19px;
+    display: block;
+  }
