@@ -45,7 +45,8 @@ ul {
   width: 86px; }
 
 .menu-icon {
-  background-image: url("../icons/menu.svg"); }
+  background-image: url("../icons/menu.svg");
+  background-size: 29px; }
 
 label {
   width: 28.5px;
