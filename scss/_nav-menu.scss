@@ -31,6 +31,12 @@
             letter-spacing: 0em;
             text-align: left;
         }
+        a:hover {
+            font-weight: 700;
+        }
+        a:active {
+            font-weight: 700;
+        }
         li {
             padding: 1rem 2rem;
         }
@@ -50,6 +56,8 @@
     left: 0;
     visibility: hidden;
  }
+
+
 
  @media(min-width: 720px) {
     .header-site__menu {

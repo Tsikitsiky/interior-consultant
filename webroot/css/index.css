@@ -84,6 +84,10 @@ label {
       line-height: 22px;
       letter-spacing: 0em;
       text-align: left; }
+    .header-site__menu ul a:hover {
+      font-weight: 700; }
+    .header-site__menu ul a:active {
+      font-weight: 700; }
     .header-site__menu ul li {
       padding: 1rem 2rem; }
 
@@ -230,7 +234,8 @@ small {
       margin-top: 1rem; }
   .main-header__heading {
     font-size: 48px;
-    line-height: 61px; }
+    line-height: 61px;
+    margin-top: 0; }
   .main__content--introduction {
     font-size: 24px;
     font-weight: 300;
