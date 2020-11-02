@@ -17,3 +17,12 @@
         }
     }
 }
+
+@media(min-width: 720px) {
+    .footer-site {
+        padding-top: 0;
+        div {
+            border: none;
+        }
+    }
+}

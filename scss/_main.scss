@@ -102,6 +102,7 @@ small {
         display: flex;
         justify-content: space-between;
         gap: 30px;
+        margin-top: 100px;
 
     }
 
@@ -111,5 +112,30 @@ small {
 
     .about-the-designer {
         width: 410px;
+        height: 189px;
+
+        .img-caption {
+            font-size: 24px;
+            line-height: 30px;
+            max-width: 284px;
+            margin-top: 1rem;
+        }
+    }
+
+    .main-header__heading {
+        font-size: 48px;
+        line-height: 61px;
+    }
+
+    .main__content--introduction {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        max-width: 400px;
+    }
+
+    .arrow-icon {
+        font-size: 18px;
+        line-height: 21px;
     }
 }
