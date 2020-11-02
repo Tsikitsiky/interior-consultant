@@ -50,3 +50,43 @@
     left: 0;
     visibility: hidden;
  }
+
+ @media(min-width: 720px) {
+    .header-site__menu {
+        position: relative;
+        z-index: 3;
+        transform: translateX(0);
+        transition: transform 0.3s;
+        width: auto;
+        height: auto;
+       // background-color: #181719;
+        text-align: center;
+
+        .close {
+            display: none;
+        }
+
+        ul {
+            padding: 0;
+            display: flex;
+            gap: 86px;
+            
+            a {
+                color: #fff;
+                font-family: 'Montserrat', Arial;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            li {
+                padding: 0;
+            }
+
+    }
+
+    }
+
+ }
