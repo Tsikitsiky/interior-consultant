@@ -26,3 +26,8 @@ ul {
     background-position: center;
 }
 
+@media(min-width: 720px) {
+    .site-container {
+        max-width: 1240px;
+    }
+}

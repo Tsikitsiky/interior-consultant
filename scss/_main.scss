@@ -96,3 +96,20 @@ small {
     line-height: 12px;
     color: #828282;
 }
+
+@media(min-width: 720px) {
+    main {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+
+    }
+
+    .main__content--img {
+        max-width: 721px;
+    }
+
+    .about-the-designer {
+        width: 410px;
+    }
+}
